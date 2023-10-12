@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import googlemaps
 
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix = 'MeetUp ', intents = intents)
