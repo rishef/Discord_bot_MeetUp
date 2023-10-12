@@ -13,7 +13,7 @@ async def on_ready():
 async def hello(ctx):
     await ctx.send('Hello! Lets MeetUp!')
 
-client.run('MTE1NzkzMTcxNzgyNzQ5MzkwMA.G4n8ne.3XMJHx7lLud9mnoxCbxzmdpHmD6uB9tWAHi2Xo')
+client.run('key')
 '''
 @client.event
 async def on_message(message):
