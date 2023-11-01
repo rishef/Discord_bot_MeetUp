@@ -2,7 +2,7 @@ import requests
 
 def get_places_by_category(lat, lon, category):
     # Replace 'YOUR_API_KEY' with your actual TomTom API key
-    api_key = 'YOUR_KEY_HERE'
+    api_key = 'YOUR TOKEN'
     base_url = 'https://api.tomtom.com/search/2/categorySearch/'
     url=base_url+category+".json"
     print(url)
